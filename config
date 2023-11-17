@@ -5,3 +5,12 @@
 	logallrefupdates = true
 	symlinks = false
 	ignorecase = true
+[user]
+	name = rena030905
+	email = michgutierrez305@gmail.com
+[remote "origen"]
+	url = https://github.com/renata030905/michelle.git
+	fetch = +refs/heads/*:refs/remotes/origen/*
+[branch "master"]
+	remote = origen
+	merge = refs/heads/master
